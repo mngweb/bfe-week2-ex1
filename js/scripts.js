@@ -54,5 +54,21 @@ if (!String.prototype.repeatt) {
 
     var result = "xyz".repeatt(4);
     console.log(result);
+    
+    // //PYTANIE: Dlaczego poniższy kod nie działa?
+    // var text = document.getElementById("text").value;
+    //     count = parseInt(document.getElementById("count").value),
+    //     output = document.getElementById("repeated"),
+    //     form = document.getElementById("form");
+
+
+    // form.addEventListener("submit", function(e) {
+    //     e.preventDefault();
+
+    //     console.log(text);
+
+    //     var result = text.repeatt(count);
+    //     output.textContent = result;
+    // }, false);
 
 })();
